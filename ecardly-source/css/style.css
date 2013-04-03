@@ -13,6 +13,35 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
+html {
+     background-color: rdg(205,205,205);
+}
+
+#container {
+     width: 940px;
+     color: #000000;
+     font-family: helvetica;
+}
+
+#container-left {
+     width: 640px;
+     display: inline-block; 
+}
+
+#container-right {
+     width: 280px;
+     float: right;
+}
+
+h1 {
+     font-size: 20px;
+}
+
+a {
+     color: #cc6633;
+}
+
+
 .clearfix:after {
      content: ".";
      display: block;
